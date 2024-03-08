@@ -17,7 +17,6 @@ terraform {
   }
 
 }
-
 module "tf-state" {
   source      = "./modules/tf-state"
   bucket_name = local.bucket_name
